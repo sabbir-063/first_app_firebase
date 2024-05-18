@@ -1,5 +1,6 @@
 import 'package:first_app_firebase/features/authentication/screens/password_configure/forget_password.dart';
 import 'package:first_app_firebase/features/authentication/screens/signup/signup.dart';
+import 'package:first_app_firebase/navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -64,10 +65,11 @@ class OneForm extends StatelessWidget {
               height: OneSizes.spaceBtwItems,
             ),
 
+            //Sign IN Button
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const NavigationBarMenu()),
                 child: const Text(OneTexts.signIn),
               ),
             ),

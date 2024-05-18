@@ -1,4 +1,4 @@
-import 'package:first_app_firebase/common/widgets/success_screen.dart';
+import 'package:first_app_firebase/common/widgets/success_screen/success_screen.dart';
 import 'package:first_app_firebase/features/authentication/screens/login/login.dart';
 import 'package:first_app_firebase/utils/constants/image_strings.dart';
 import 'package:first_app_firebase/utils/constants/sizes.dart';

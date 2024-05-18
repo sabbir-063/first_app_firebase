@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../utils/constants/colors.dart';
-import '../../../../../utils/helpers/helper_functions.dart';
+import '../../../../../../utils/constants/colors.dart';
+import '../../../../../../utils/helpers/helper_functions.dart';
 
 class DividerText extends StatelessWidget {
   const DividerText({super.key, required this.dividerText});
