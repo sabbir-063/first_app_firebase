@@ -32,12 +32,12 @@ class OneColors {
   static Color darkContainer = Colors.white.withOpacity(0.1);
 
   // Button Colons
-  static const Color butronPrimary = Color(0xFF4b68ff);
+  static const Color buttonPrimary = Color(0xFF4b68ff);
   static const Color buttonSecondary = Color(0xFF6C7570);
   static const Color buttonDisabled = Color(0xFFC4C4C4);
 
   // Border Colors
-  static const Color bondenPrimary = Color(0xFFD9D9D9);
+  static const Color borderPrimary = Color(0xFFD9D9D9);
   static const Color borderSecondary = Color(0XFFE6E6E6);
 
   // Error and Validation Colors
@@ -54,4 +54,5 @@ class OneColors {
   static const Color softGrey = Color(0xFF4F4F4F);
   static const Color lightGrey = Color(0xFFF9F9F9);
   static const Color white = Color(0xFFFFFFFF);
+  static const Color red = Color(0xFFD32F2F);
 }

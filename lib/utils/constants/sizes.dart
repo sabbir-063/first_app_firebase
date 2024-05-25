@@ -21,6 +21,7 @@ class OneSizes {
   static const double buttonHeight = 18.0;
   static const double buttonRadius = 12.0;
   static const double buttonWeidth = 120.0;
+  static const double buttonElevation = 4.0;
 
   //Appbar height
   static const double appBarHeight = 56.0;
@@ -43,8 +44,8 @@ class OneSizes {
 
   //Product Item Dimentions
   static const productImageSize = 120.0;
-  static const productImageRadius = 120.0;
-  static const productImageHeight = 120.0;
+  static const productImageRadius = 16.0;
+  static const productImageHeight = 160.0;
 
   //Input Field
   static const double inputFieldRadius = 12.0;
